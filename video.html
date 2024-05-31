@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play video</title>
+
+    <link rel="stylesheet" href="./css/vloggy.css">
+
+    <script src="https://kit.fontawesome.com/743d73e695.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="flex-div flex">
+        <div class="nav-left flex">
+            <img class="logoimage" src="./Images/vloggy back.png" alt="logoimage">
+        </div>
+
+        <div class="nav-middle flex">
+            <div class="search-bar">
+                <input type="text" placeholder="Search" id="querry" oninput="search()">
+                <img src="./Images/search.png" alt="search">
+            </div>
+            <img src="./Images/voice-search.png" alt="voicesearch" class="mic-icon">
+        </div>
+
+        <div class="nav-right flex">
+            <img src="./Images/upload.png" alt="upload">
+            <img src="./Images/more.png" alt="more">
+            <img src="./Images/notification.png" alt="notification">
+            <img src="./Images/pic.jpeg" class="user-icon" alt="user">
+        </div>
+    </nav>
+
+    <!-- clicked video -->
+    <div class="play-video"></div>
+
+    <!-- clicked video description -->
+    <div class="video-description">
+        <p class="channel-title"></p>
+        <div class="channel-info">
+            <img class="users-profile" src="" alt="userimage">
+            <p class="channel-name"></p>
+            <button class="subscribe">Subscribe</button>
+        </div>
+    </div>
+
+    <!-- comment section -->
+    <div class="comment-section">
+        <h2>Comments:</h2>
+        <div class="itselfcomment">
+            <i class="fa-solid fa-circle-user"></i>
+            <input type="text" placeholder="Add yout comment......" required>
+        </div>
+        <br>
+        <hr>
+        <br>
+    </div>
+
+    <!-- other related videos -->
+
+    <div class="related-video-container">
+        <div class="vid-list related-videos">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./javascript/config.js"></script>
+    <script src="./javascript/vloggy.js"></script>
+    <script src="./javascript/video.js"></script>
+</body>
+
+</html>

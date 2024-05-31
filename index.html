@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vloggy</title>
+
+    <link rel="stylesheet" href="./css/vloggy.css">
+    <link rel="stylesheet" href="./css/media querry.css">
+
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+
+    <nav class="flex-div flex">
+        <div class="nav-left flex">
+            <img class="menubutton" onclick="OnNavItemClick()" src="./Images/menu.png" alt="menubutton">
+            <img class="logoimage" src="./Images/vloggy back.png" alt="logoimage">
+        </div>
+
+        <div class="nav-middle flex">
+            <div class="search-bar">
+                <input type="text" placeholder="Search . . . ." id="querry" oninput="search()">
+                <img src="./Images/search.png" alt="search">
+            </div>
+            <img src="./Images/voice-search.png" alt="voicesearch" class="mic-icon">
+        </div>
+
+        <div class="nav-right flex">
+            <img src="./Images/upload.png" alt="upload">
+            <img src="./Images/more.png" alt="more">
+            <img src="./Images/notification.png" alt="notification">
+            <img src="./Images/pic.jpeg" class="user-icon" alt="user">
+        </div>
+    </nav>
+
+    <!-- slide Bar -->
+    <div class="slide-bar">
+        <div class="shortcut-links">
+            <a href=""><img src="./Images/home.png" alt="home-icon">
+                <p>Home</p>
+            </a>
+            <a href=""><img src="./Images/explore.png" alt="explore-icon">
+                <p>Explore</p>
+            </a>
+            <a href=""><img src="./Images/subscriprion.png" alt="subscriprion-icon">
+                <p>Subscription</p>
+            </a>
+            <a href=""><img src="./Images/library.png" alt="library-icon">
+                <p>Library</p>
+            </a>
+            <a href=""><img src="./Images/history.png" alt="history-icon">
+                <p>History</p>
+            </a>
+            <a href=""><img src="./Images/playlist.png" alt="playlist-icon">
+                <p>Playlist</p>
+            </a>
+            <a href=""><img src="./Images/messages.png" alt="messages-icon">
+                <p>Messages</p>
+            </a>
+            <a href=""><img src="./Images/show-more.png" alt="showmore-icon">
+                <p>Show More</p>
+            </a>
+            <hr>
+        </div>
+
+        <div class="suscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a class="flex" href=""><img src="./Images/Jack.png" alt="showmore-icon">
+                <p>Jack Nicholson</p>
+            </a>
+            <a class="flex" href=""><img src="./Images/simon.png" alt="showmore-icon">
+                <p>Simon Luther</p>
+            </a>
+            <a class="flex" href=""><img src="./Images/tom.png" alt="showmore-icon">
+                <p>Tom Curran</p>
+            </a>
+            <a class="flex" href=""><img src="./Images/megan.png" alt="showmore-icon">
+                <p>Megan Perry</p>
+            </a>
+            <a class="flex" href=""><img src="./Images/cameron.png" alt="showmore-icon">
+                <p>Cameron Diaz</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- main -->
+
+    <div class="container">
+        <div class="banner">
+            <img src="./Images/vloggy banner.png" alt="banner">
+        </div>
+
+        <div class="vid-list">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./javascript/config.js"></script>
+    <script src="./javascript/vloggy.js"></script>
+</body>
+
+</html>
