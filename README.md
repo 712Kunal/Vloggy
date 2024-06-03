@@ -3,5 +3,9 @@ Vloggy is a lightweight web application designed to replicate the core features 
 <hr>
 <h1>Output</h1>
 <h1>Visual Overview:</h1>
-https://github.com/712Kunal/Vloggy/assets/155985737/8474b2b0-8553-434c-84bd-a4436cea09a9
 
+https://github.com/712Kunal/Vloggy/assets/155985737/2d7367ab-3b9b-4610-af30-37f4097c9b3e
+
+<h1>Screenshots of website:</h1>
+
+![p1](https://github.com/712Kunal/Vloggy/assets/155985737/99b1082a-93e2-45cc-bc04-dad608160476)
